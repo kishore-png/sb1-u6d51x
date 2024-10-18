@@ -8,7 +8,7 @@ export default function Home() {
       <div className={styles.playerWrapper}>
         <Image
           src={
-            'https://res.cloudinary.com/dtid3x3aq/image/upload/IMG_20241018_220947295_tktnto.jpg'
+            'https://res.cloudinary.com/dtid3x3aq/image/upload/IMG_20241019_030318305_bsmrjz.jpg'
           }
           alt={''}
           width={270}
