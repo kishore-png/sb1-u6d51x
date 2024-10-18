@@ -3,14 +3,12 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div class="flex justify-center items-center">
+    <div className="flex justify-center items-center">
       <iframe
-        src="https://res.cloudinary.com/dtid3x3aq/video/upload/VID_20241019_030659482_m0oybi.mp4"
-        frameborder="0"
+        src="https://res.cloudinary.com/dtid3x3aq/video/upload/VID_20241019_030659482_m0oybi.mp4?loop=1&amp;playlist=VID_20241019_030659482_m0oybi"
         width="960"
         height="800"
-        allowfullscreen="true"
-        allowFullScreen
+        allowFullScreen={true} // Assigning boolean value directly
       />
     </div>
     // <main className={styles.main}>
