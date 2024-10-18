@@ -3,11 +3,16 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <iframe
-      src="https://res.cloudinary.com/dtid3x3aq/video/upload/VID_20241019_030659482_m0oybi.mp4"
-      frameborder="0"
-      allowfullscreen
-    />
+    <div class="flex justify-center items-center">
+      <iframe
+        src="https://res.cloudinary.com/dtid3x3aq/video/upload/VID_20241019_030659482_m0oybi.mp4"
+        frameborder="0"
+        width="960"
+        height="800"
+        allowfullscreen="true"
+        allowFullScreen
+      />
+    </div>
     // <main className={styles.main}>
     //   <h1 className={styles.title}>Lae sam!!</h1>
     //   <div className={styles.playerWrapper}>
