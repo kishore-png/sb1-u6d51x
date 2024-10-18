@@ -13,10 +13,10 @@ export default function Home() {
     // </div>
     <main className={styles.main}>
       <h1 className={styles.title}>Lae sam!!</h1>
-      <div className={styles.playerWrapper}>
+      <div className="flex justify-center items-center">
         <Image
           src={
-            'https://res.cloudinary.com/dtid3x3aq/image/upload/IMG_20241019_030318305_bsmrjz.jpg'
+            'https://res.cloudinary.com/dtid3x3aq/image/upload/IMG_20241019_034417202_kkfcwx.jpg'
           }
           alt={''}
           width={270}
